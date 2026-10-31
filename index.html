@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StepBeat</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #555; --accent: #1db954; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #f0f0f0; --muted: #aaa; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+    h1 { margin: 0 0 8px; font-size: 2.2rem; }
+    p { color: var(--muted); }
+    a { color: var(--accent); }
+    footer { margin-top: 48px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>StepBeat</h1>
+    <p>App per iOS e Android che misura i tuoi passi al minuto mentre cammini o corri e riproduce su Spotify un brano con lo stesso tempo.</p>
+    <p>I dati sul tempo dei brani provengono da GetSongBPM.</p>
+    <footer>
+      BPM data by <a href="https://getsongbpm.com">GetSongBPM.com</a>
+    </footer>
+  </main>
+</body>
+</html>
